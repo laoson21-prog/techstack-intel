@@ -1,0 +1,47 @@
+2026-05-03 20:34:08.641 | INFO     | utils.notifier:send_alert_email:32 - ✅ Email envoyé : 🔍 TechStack Intel — Test d'alerte
+2026-05-03 21:34:02.300 | INFO     | __main__:<module>:176 - 🔁 Exécution immédiate au démarrage...
+2026-05-03 21:34:02.300 | INFO     | __main__:run_all:121 - 🚀 Lancement de tous les scrapers...
+2026-05-03 21:34:02.301 | INFO     | __main__:run_github_scraper:31 - ⏰ [2026-05-03 21:34:02.301627] Lancement scraper GitHub...
+2026-05-03 21:34:02.303 | ERROR    | __main__:run_github_scraper:36 - ❌ GitHub scraper erreur (Shopify) : insert_company() got an unexpected keyword argument 'domain'
+2026-05-03 21:34:02.305 | ERROR    | __main__:run_github_scraper:36 - ❌ GitHub scraper erreur (Stripe) : insert_company() got an unexpected keyword argument 'domain'
+2026-05-03 21:34:02.307 | ERROR    | __main__:run_github_scraper:36 - ❌ GitHub scraper erreur (Vercel) : insert_company() got an unexpected keyword argument 'domain'
+2026-05-03 21:34:02.308 | ERROR    | __main__:run_github_scraper:36 - ❌ GitHub scraper erreur (Supabase) : insert_company() got an unexpected keyword argument 'domain'
+2026-05-03 21:34:02.309 | ERROR    | __main__:run_github_scraper:36 - ❌ GitHub scraper erreur (PlanetScale) : insert_company() got an unexpected keyword argument 'domain'
+2026-05-03 21:34:02.309 | INFO     | __main__:run_github_scraper:37 - ✅ Scraper GitHub terminé
+2026-05-03 21:34:02.311 | INFO     | __main__:run_wappalyzer_scraper:41 - ⏰ [2026-05-03 21:34:02.311118] Lancement scraper Wappalyzer...
+2026-05-03 21:34:02.312 | ERROR    | __main__:run_wappalyzer_scraper:46 - ❌ Wappalyzer scraper erreur (Shopify) : insert_company() got an unexpected keyword argument 'domain'
+2026-05-03 21:34:02.313 | ERROR    | __main__:run_wappalyzer_scraper:46 - ❌ Wappalyzer scraper erreur (Stripe) : insert_company() got an unexpected keyword argument 'domain'
+2026-05-03 21:34:02.314 | ERROR    | __main__:run_wappalyzer_scraper:46 - ❌ Wappalyzer scraper erreur (Vercel) : insert_company() got an unexpected keyword argument 'domain'
+2026-05-03 21:34:02.315 | ERROR    | __main__:run_wappalyzer_scraper:46 - ❌ Wappalyzer scraper erreur (Supabase) : insert_company() got an unexpected keyword argument 'domain'
+2026-05-03 21:34:02.317 | ERROR    | __main__:run_wappalyzer_scraper:46 - ❌ Wappalyzer scraper erreur (PlanetScale) : insert_company() got an unexpected keyword argument 'domain'
+2026-05-03 21:34:02.318 | INFO     | __main__:run_wappalyzer_scraper:47 - ✅ Scraper Wappalyzer terminé
+2026-05-03 21:34:02.318 | INFO     | __main__:check_and_notify:52 - 📧 Vérification des changements de stack...
+2026-05-03 21:34:02.322 | INFO     | __main__:check_and_notify:80 - ✅ Aucune alerte à envoyer aujourd'hui
+2026-05-03 21:34:02.322 | INFO     | __main__:run_all:125 - ✅ Cycle complet terminé
+2026-05-03 21:40:33.085 | INFO     | __main__:<module>:176 - 🔁 Exécution immédiate au démarrage...
+2026-05-03 21:40:33.086 | INFO     | __main__:run_all:121 - 🚀 Lancement de tous les scrapers...
+2026-05-03 21:40:33.086 | INFO     | __main__:run_github_scraper:31 - ⏰ [2026-05-03 21:40:33.086527] Lancement scraper GitHub...
+2026-05-03 21:40:33.096 | INFO     | scrapers.github_scraper:get_org_languages:35 - 🔍 Scraping GitHub : Shopify
+2026-05-03 21:40:34.082 | INFO     | scrapers.github_scraper:get_org_languages:46 -    → 10 repos trouvés
+2026-05-03 21:40:43.039 | ERROR    | __main__:run_github_scraper:36 - ❌ GitHub scraper erreur (Shopify) : NOT NULL constraint failed: technologies.company_name
+2026-05-03 21:40:48.636 | ERROR    | __main__:run_github_scraper:36 - ❌ GitHub scraper erreur (Stripe) : database is locked
+2026-05-03 21:40:54.214 | ERROR    | __main__:run_github_scraper:36 - ❌ GitHub scraper erreur (Vercel) : database is locked
+2026-05-03 21:40:59.777 | ERROR    | __main__:run_github_scraper:36 - ❌ GitHub scraper erreur (Supabase) : database is locked
+2026-05-03 21:41:05.346 | ERROR    | __main__:run_github_scraper:36 - ❌ GitHub scraper erreur (PlanetScale) : database is locked
+2026-05-03 21:41:05.347 | INFO     | __main__:run_github_scraper:37 - ✅ Scraper GitHub terminé
+2026-05-03 21:41:05.348 | INFO     | __main__:run_wappalyzer_scraper:41 - ⏰ [2026-05-03 21:41:05.348838] Lancement scraper Wappalyzer...
+2026-05-03 21:41:10.936 | ERROR    | __main__:run_wappalyzer_scraper:46 - ❌ Wappalyzer scraper erreur (Shopify) : database is locked
+2026-05-03 21:41:16.514 | ERROR    | __main__:run_wappalyzer_scraper:46 - ❌ Wappalyzer scraper erreur (Stripe) : database is locked
+2026-05-03 21:41:22.090 | ERROR    | __main__:run_wappalyzer_scraper:46 - ❌ Wappalyzer scraper erreur (Vercel) : database is locked
+2026-05-03 21:41:27.656 | ERROR    | __main__:run_wappalyzer_scraper:46 - ❌ Wappalyzer scraper erreur (Supabase) : database is locked
+2026-05-03 21:41:33.243 | ERROR    | __main__:run_wappalyzer_scraper:46 - ❌ Wappalyzer scraper erreur (PlanetScale) : database is locked
+2026-05-03 21:41:33.243 | INFO     | __main__:run_wappalyzer_scraper:47 - ✅ Scraper Wappalyzer terminé
+2026-05-03 21:41:33.244 | INFO     | __main__:check_and_notify:52 - 📧 Vérification des changements de stack...
+2026-05-03 21:41:33.249 | INFO     | __main__:check_and_notify:77 -    → Shopify : aucun changement aujourd'hui
+2026-05-03 21:41:33.251 | INFO     | __main__:check_and_notify:80 - ✅ Aucune alerte à envoyer aujourd'hui
+2026-05-03 21:41:33.251 | INFO     | __main__:run_all:125 - ✅ Cycle complet terminé
+2026-05-03 21:46:07.515 | INFO     | __main__:<module>:176 - 🔁 Exécution immédiate au démarrage...
+2026-05-03 21:46:07.515 | INFO     | __main__:run_all:121 - 🚀 Lancement de tous les scrapers...
+2026-05-03 21:46:07.516 | INFO     | __main__:run_github_scraper:31 - ⏰ [2026-05-03 21:46:07.516448] Lancement scraper GitHub...
+2026-05-03 21:46:07.526 | INFO     | scrapers.github_scraper:get_org_languages:36 - 🔍 Scraping GitHub : Shopify
+2026-05-03 21:46:08.574 | INFO     | scrapers.github_scraper:get_org_languages:47 -    → 10 repos trouvés
