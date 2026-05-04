@@ -45,3 +45,27 @@
 2026-05-03 21:46:07.516 | INFO     | __main__:run_github_scraper:31 - ⏰ [2026-05-03 21:46:07.516448] Lancement scraper GitHub...
 2026-05-03 21:46:07.526 | INFO     | scrapers.github_scraper:get_org_languages:36 - 🔍 Scraping GitHub : Shopify
 2026-05-03 21:46:08.574 | INFO     | scrapers.github_scraper:get_org_languages:47 -    → 10 repos trouvés
+2026-05-03 21:46:18.077 | INFO     | scrapers.github_scraper:get_org_languages:36 - 🔍 Scraping GitHub : stripe
+2026-05-03 21:46:19.006 | INFO     | scrapers.github_scraper:get_org_languages:47 -    → 10 repos trouvés
+2026-05-03 21:46:29.206 | INFO     | scrapers.github_scraper:get_org_languages:36 - 🔍 Scraping GitHub : vercel
+2026-05-03 21:46:30.323 | INFO     | scrapers.github_scraper:get_org_languages:47 -    → 10 repos trouvés
+2026-05-03 21:46:37.297 | INFO     | scrapers.github_scraper:get_org_languages:36 - 🔍 Scraping GitHub : supabase
+2026-05-03 21:46:38.267 | INFO     | scrapers.github_scraper:get_org_languages:47 -    → 10 repos trouvés
+2026-05-03 21:46:45.818 | INFO     | scrapers.github_scraper:get_org_languages:36 - 🔍 Scraping GitHub : planetscale
+2026-05-03 21:46:46.668 | INFO     | scrapers.github_scraper:get_org_languages:47 -    → 10 repos trouvés
+2026-05-03 21:46:55.102 | INFO     | __main__:run_github_scraper:37 - ✅ Scraper GitHub terminé
+2026-05-03 21:46:55.103 | INFO     | __main__:run_wappalyzer_scraper:41 - ⏰ [2026-05-03 21:46:55.103062] Lancement scraper Wappalyzer...
+2026-05-03 21:46:55.110 | INFO     | scrapers.wappalyzer_scraper:detect_technologies:27 - 🌐 Analyse Wappalyzer : https://www.shopify.com
+2026-05-03 21:47:00.961 | INFO     | scrapers.wappalyzer_scraper:detect_technologies:27 - 🌐 Analyse Wappalyzer : https://www.stripe.com
+2026-05-03 21:47:13.314 | INFO     | scrapers.wappalyzer_scraper:detect_technologies:27 - 🌐 Analyse Wappalyzer : https://www.vercel.com
+2026-05-03 21:47:19.114 | INFO     | scrapers.wappalyzer_scraper:detect_technologies:27 - 🌐 Analyse Wappalyzer : https://www.supabase.com
+2026-05-03 21:47:24.626 | INFO     | scrapers.wappalyzer_scraper:detect_technologies:27 - 🌐 Analyse Wappalyzer : https://www.planetscale.com
+2026-05-03 21:47:28.522 | INFO     | __main__:run_wappalyzer_scraper:47 - ✅ Scraper Wappalyzer terminé
+2026-05-03 21:47:28.523 | INFO     | __main__:check_and_notify:52 - 📧 Vérification des changements de stack...
+2026-05-03 21:47:28.530 | INFO     | __main__:check_and_notify:77 -    → PlanetScale : aucun changement aujourd'hui
+2026-05-03 21:47:28.534 | INFO     | __main__:check_and_notify:77 -    → Shopify : aucun changement aujourd'hui
+2026-05-03 21:47:28.540 | INFO     | __main__:check_and_notify:77 -    → Stripe : aucun changement aujourd'hui
+2026-05-03 21:47:28.542 | INFO     | __main__:check_and_notify:77 -    → Supabase : aucun changement aujourd'hui
+2026-05-03 21:47:28.546 | INFO     | __main__:check_and_notify:77 -    → Vercel : aucun changement aujourd'hui
+2026-05-03 21:47:28.546 | INFO     | __main__:check_and_notify:80 - ✅ Aucune alerte à envoyer aujourd'hui
+2026-05-03 21:47:28.546 | INFO     | __main__:run_all:125 - ✅ Cycle complet terminé
