@@ -7,6 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-EXPOSE 8050
+EXPOSE 10000
 
-CMD ["python", "dashboard/app.py"]
+CMD ["gunicorn", "dashboard.app:app", "--bind", "0.0.0.0:10000", "--workers", "1"]
