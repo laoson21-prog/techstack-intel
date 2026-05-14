@@ -69,3 +69,4 @@
 2026-05-03 21:47:28.546 | INFO     | __main__:check_and_notify:77 -    → Vercel : aucun changement aujourd'hui
 2026-05-03 21:47:28.546 | INFO     | __main__:check_and_notify:80 - ✅ Aucune alerte à envoyer aujourd'hui
 2026-05-03 21:47:28.546 | INFO     | __main__:run_all:125 - ✅ Cycle complet terminé
+2026-05-05 22:20:51.279 | INFO     | __main__:<module>:182 - 🛑 Scheduler arrêté proprement
